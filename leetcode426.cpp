@@ -28,7 +28,7 @@ public:
         if(root == nullptr) return root;
         inorder(root);
         head->left = prev;
-        prev->right =head;
+        prev->right = head;
         return head;
     }
 
